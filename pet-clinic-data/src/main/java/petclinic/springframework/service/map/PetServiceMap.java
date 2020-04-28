@@ -10,7 +10,7 @@ import petclinic.springframework.service.CrudService;
 @Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long>  {
 	@Override
-	public Set<Pet> findAll(Pet o) {
+	public Set<Pet> findAll() {
 		// TODO Auto-generated method stub
 		return super.findAll();
 	}

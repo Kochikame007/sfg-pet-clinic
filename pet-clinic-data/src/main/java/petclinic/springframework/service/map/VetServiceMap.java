@@ -11,7 +11,7 @@ import petclinic.springframework.service.VetService;
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService{
 	
 	@Override
-	public Set<Vet> findAll(Vet o) {
+	public Set<Vet> findAll() {
 		return super.findAll();
 	}
 

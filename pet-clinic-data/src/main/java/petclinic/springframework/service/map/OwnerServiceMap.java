@@ -12,7 +12,7 @@ import petclinic.springframework.service.OwnerService;
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 	@Override
-	public Set<Owner> findAll(Owner o) {
+	public Set<Owner> findAll() {
 		// TODO Auto-generated method stub
 		return super.findAll();
 	}
