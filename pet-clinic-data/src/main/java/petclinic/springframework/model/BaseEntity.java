@@ -4,13 +4,13 @@ import java.io.Serializable;
 
 public class BaseEntity implements Serializable {
 	
-	private long Id;
+	private Long Id;
 
-	public long getId() {
+	public Long getId() {
 		return Id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		Id = id;
 	}
 	

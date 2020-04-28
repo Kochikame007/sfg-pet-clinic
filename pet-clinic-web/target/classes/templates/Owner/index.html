@@ -8,5 +8,24 @@
 
 <h1 th:text="'Owner page'"> Index File.................</h1>
 
+<table>
+<thead>
+<tr>
+<th>Id</th>
+<th>FirstName</th>
+<th>LastName</th>
+
+</thead>
+<tbody>
+<tr th:each="owner:${owners}">
+<td th:text="${owner?.id}">id</td>
+<td th:text="${owner?.firstName}">firstName</td>
+<td th:text="${owner?.lastName}">lastName</td>
+
+</tr>
+
+</tbody>
+</table>
+
 </body>
 </html>
