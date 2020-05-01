@@ -1,10 +1,14 @@
 F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\service\OwnerService.java
 F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\model\Person.java
 F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\service\PetService.java
+F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\model\Specialty.java
 F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\model\PetType.java
 F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\model\BaseEntity.java
+F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\model\Visit.java
 F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\service\CrudService.java
+F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\service\map\PetTypeServiceMap.java
 F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\service\map\AbstractMapService.java
+F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\service\PetTypeService.java
 F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\service\map\PetServiceMap.java
 F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\service\map\OwnerServiceMap.java
 F:\git-projects\sfg-pet-clinic\pet-clinic-data\src\main\java\petclinic\springframework\model\Owner.java

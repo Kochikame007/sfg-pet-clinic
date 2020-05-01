@@ -6,9 +6,10 @@ import org.springframework.stereotype.Service;
 
 import petclinic.springframework.model.Pet;
 import petclinic.springframework.service.CrudService;
+import petclinic.springframework.service.PetService;
 
 @Service
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long>  {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService  {
 	@Override
 	public Set<Pet> findAll() {
 		// TODO Auto-generated method stub
