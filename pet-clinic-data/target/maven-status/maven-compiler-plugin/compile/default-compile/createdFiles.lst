@@ -6,10 +6,12 @@ petclinic\springframework\model\Owner.class
 petclinic\springframework\model\Pet.class
 petclinic\springframework\service\map\PetTypeServiceMap.class
 petclinic\springframework\service\PetTypeService.class
+petclinic\springframework\service\map\SpecialtyServiceMap.class
 petclinic\springframework\service\map\VetServiceMap.class
 petclinic\springframework\service\map\PetServiceMap.class
 petclinic\springframework\service\map\OwnerServiceMap.class
 petclinic\springframework\service\PetService.class
+petclinic\springframework\service\SpecialtyService.class
 petclinic\springframework\model\Person.class
 petclinic\springframework\model\Visit.class
 petclinic\springframework\service\CrudService.class
