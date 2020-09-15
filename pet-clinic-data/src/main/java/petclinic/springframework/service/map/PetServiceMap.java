@@ -9,7 +9,7 @@ import petclinic.springframework.service.CrudService;
 import petclinic.springframework.service.PetService;
 
 @Service
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService  {
+public class PetServiceMap extends AbstractMapService<Pet> implements PetService  {
 	@Override
 	public Set<Pet> findAll() {
 		// TODO Auto-generated method stub

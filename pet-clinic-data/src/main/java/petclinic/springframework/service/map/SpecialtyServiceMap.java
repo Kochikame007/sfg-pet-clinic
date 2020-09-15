@@ -8,7 +8,7 @@ import petclinic.springframework.model.Specialty;
 import petclinic.springframework.service.SpecialtyService;
 
 @Service
-public class SpecialtyServiceMap extends AbstractMapService<Specialty, Long> implements SpecialtyService {
+public class SpecialtyServiceMap extends AbstractMapService<Specialty> implements SpecialtyService {
 
 	@Override
 	public Set<Specialty> findAll() {

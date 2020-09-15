@@ -8,7 +8,7 @@ import petclinic.springframework.model.PetType;
 import petclinic.springframework.service.PetTypeService;
 
 @Service
-public class PetTypeServiceMap extends AbstractMapService<PetType, Long> implements PetTypeService{
+public class PetTypeServiceMap extends AbstractMapService<PetType> implements PetTypeService{
 	
 	@Override
 	public Set<PetType> findAll() {

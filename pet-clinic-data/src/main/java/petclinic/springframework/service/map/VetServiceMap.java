@@ -10,7 +10,7 @@ import petclinic.springframework.service.SpecialtyService;
 import petclinic.springframework.service.VetService;
 
 @Service
-public class VetServiceMap extends AbstractMapService<Vet, Long>  implements VetService{
+public class VetServiceMap extends AbstractMapService<Vet>  implements VetService{
 	private final SpecialtyService specialtyService;
 	
 	public  VetServiceMap(SpecialtyService specialtyService) {

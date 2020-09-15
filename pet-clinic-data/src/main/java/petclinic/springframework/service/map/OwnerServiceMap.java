@@ -11,7 +11,7 @@ import petclinic.springframework.service.PetService;
 import petclinic.springframework.service.PetTypeService;
 
 @Service
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
+public class OwnerServiceMap extends AbstractMapService<Owner> implements OwnerService {
 	
 	private final PetService petService;
 	private final PetTypeService petTypeService;
@@ -69,6 +69,12 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
 
 	@Override
 	public Owner findByLastName(String lastName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Owner findByLastNameWithPets(String lastName) {
 		// TODO Auto-generated method stub
 		return null;
 	}
