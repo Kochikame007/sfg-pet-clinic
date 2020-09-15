@@ -6,21 +6,25 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+
 import petclinic.springframework.model.BaseEntity;
+import petclinic.springframework.service.CrudService;
 
-public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> {
-
+public abstract class AbstractMapService<T extends BaseEntity> implements CrudService<T> {
+	
+	 
 	protected Map<Long, T> map = new HashMap<Long, T>();
 
-	Set<T> findAll() {
+	public Set<T> findAll() {
 		return new HashSet<>(map.values());
 	}
 
-	T findById(ID id) {
+	public T findById(Long id) {
 		return map.get(id);
 	}
 
-	T save( T object) {
+	public T save( T object) {
 		if (null != object) {
 			if (object.getId() == null) {
 				object.setId(getNextId());
@@ -31,11 +35,11 @@ public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> 
 		return object;
 	}
 
-	void deleteById(ID id) {
+	public void deleteById(Long id) {
 		map.remove(id);
 	}
 
-	void delete(T object) {
+	public void delete(T object) {
 		map.entrySet().removeIf(entrySet -> entrySet.getValue().equals(object));
 	}
 
